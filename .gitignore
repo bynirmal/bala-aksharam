@@ -9,7 +9,7 @@ pubspec.lock
 # Android / iOS
 android/
 ios/
-web/
+# web/  ← intentionally tracked for GitHub Pages deployment
 windows/
 linux/
 macos/
