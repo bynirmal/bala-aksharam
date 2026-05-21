@@ -1,5 +1,7 @@
 # Bala Aksharam — Little Rishis
 
+> 🌐 **Live:** https://bynirmal.github.io/bala-aksharam/
+
 A modern AI-powered educational mobile app for kids that teaches alphabets using
 Indian culture, Ramayanam, spirituality, and mythology.
 
@@ -76,10 +78,24 @@ lib/
 - Confetti milestones and star badges to incentivise repeated engagement
 
 ## Getting Started
+
+### Web (Live — No Build Needed)
+The app is auto-deployed on **GitHub Pages**:
+> https://bynirmal.github.io/bala-aksharam/
+
+Just open the link in any browser — works on phones, tablets, and desktops.
+
+### Flutter (local development)
 ```bash
 cd bala_aksharam
 flutter pub get
 flutter run
+```
+
+#### Web build from Flutter source
+```bash
+ flutter build web --release
+# output is in build/web/
 ```
 
 ## Future Enhancements
