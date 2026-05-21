@@ -1,0 +1,28 @@
+# Ignore
+.dart_tool/
+.packages
+.pub-cache/
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android / iOS
+android/
+ios/
+web/
+windows/
+linux/
+macos/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
